@@ -1,0 +1,13 @@
+.education {
+  border-radius: 20px;
+  background-color: rgb(7, 146, 7, 0.5);
+  padding: 20px 7px;
+}
+.education h3 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(245, 245, 245, 0.6);
+  width: fit-content;
+  padding: 2px;
+  font-size: 18px;
+}
