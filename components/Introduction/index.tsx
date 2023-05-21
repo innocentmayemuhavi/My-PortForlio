@@ -73,7 +73,7 @@ const Introduction = () => {
           Date Of Birth: 10<sup>th</sup> July 2003
         </h2>
         <h2>Phone Number:0796331359</h2>
-        <h2>Email:innocentmuhavimaye@gmail.com</h2>
+        <h2  className={styles.h2}>Email:<span>innocentmuhavimaye@gmail.com</span></h2>
         <h2>Religion:Christian</h2>
         <h2>Language:Kiswahili,English</h2>
       </div>

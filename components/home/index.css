@@ -22,9 +22,14 @@ tr:nth-child(even) {
 }
 
 .main {
-  display: flex;
   align-items: center;
   justify-content: center;
+}
+div{
+  box-sizing: border-box;
+}
+.main{
+  
 }
 
 
@@ -32,5 +37,9 @@ tr:nth-child(even) {
     .page{
         min-width: 1330px;
         max-width: 1335px;
+       
+    }
+    .main{
+      display: flex;
     }
 }
