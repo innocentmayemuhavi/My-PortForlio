@@ -17,13 +17,16 @@ const Introduction = () => {
         data-aos="slide-left"
       >
         <div className={styles.intro_sec_1}>
-         <h3> <Typewriter
-            options={{
-              strings: ["Hi", "Welcome", "To", "My", "Portforlio ..."],
-              autoStart: true,
-              loop: true,
-            }}
-          /></h3>
+          <h3>
+            {" "}
+            <Typewriter
+              options={{
+                strings: ["Hi", "Welcome", "To", "My", "Portforlio ..."],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h3>
         </div>
         <div className={styles.intro_sec_2}>
           <h3>
@@ -34,6 +37,7 @@ const Introduction = () => {
                   " Front-End Engineer",
                   " Software Developer",
                   " Ui-Developer",
+                  "Android Developer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -54,11 +58,11 @@ const Introduction = () => {
                   "HTML",
                   "Javascript",
                   "Css",
-                  'vue',
-                  'node js',
-
+                  "vue",
+                  "node js",
+                  "Flutter",
                 ],
-              
+
                 autoStart: true,
                 loop: true,
               }}
@@ -66,14 +70,16 @@ const Introduction = () => {
           </h3>
         </div>
       </div>
-      <div className={styles.personal_details} data-aos='fade-up'>
+      <div className={styles.personal_details} data-aos="fade-up">
         <h1>Personal Details</h1>
         <h2>Name:Muhavi Innocent Maye</h2>
         <h2>
           Date Of Birth: 10<sup>th</sup> July 2003
         </h2>
         <h2>Phone Number:0796331359</h2>
-        <h2  className={styles.h2}>Email:<span>innocentmuhavimaye@gmail.com</span></h2>
+        <h2 className={styles.h2}>
+          Email:<span>innocentmuhavimaye@gmail.com</span>
+        </h2>
         <h2>Religion:Christian</h2>
         <h2>Language:Kiswahili,English</h2>
       </div>
